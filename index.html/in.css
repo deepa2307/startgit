@@ -1,0 +1,57 @@
+body{
+    margin : 0;/* to remove the default margin */
+    display : flex; /*to bring things to centre */
+    flex-direction: column;
+    align-items: center;
+    height : 100vh;
+    justify-content: center;
+    background:url("https://cdn.pixabay.com/photo/2018/02/27/17/41/frame-3186088_1280.jpg") ;
+    background-size: cover;
+    overflow: hidden;
+}
+h2{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 45px;
+    text-align: center;
+    color: rgb(108, 108, 5);
+}
+.clock {
+    display : flex;
+    position : relative;
+}
+.clock div{
+    margin:5px;
+}
+
+.clock span{
+    width: 100px;
+    height: 80px;
+    background-color: rgb(204, 167, 120);
+    opacity: .8;
+    color: rgb(96, 89, 22);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .3);
+
+}
+
+.clock .text{
+    height: 30px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: rgb(175, 156, 79)  ;
+    opacity: 0.8;
+}
+
+.clock #ampm{
+    bottom: 0;
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    font-size: 20px;
+    background: hsla(54, 53%, 42%, 0.7) ;
+}
